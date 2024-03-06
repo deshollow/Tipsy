@@ -38,7 +38,7 @@ class CalculatorViewController: UIViewController {
         let buttonTitleAsANumber = Double(buttonTitleMinusPercentSign)!
         tip = buttonTitleAsANumber / 100
         
-        billTextField.endEditing(true)
+        billTextField.endEditing(true) //hiding keyboard
     }
     
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
